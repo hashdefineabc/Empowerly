@@ -1,0 +1,107 @@
+/* ScrambleGame.css */
+
+.scramble-game {
+  text-align: center;
+  padding: 20px;
+  font-family: "raleway";
+  background-color: #E5EAF5;
+  padding: 400px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #494D5F;
+  margin-bottom: 20px;
+}
+
+.scrambled-word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.word-bubble {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #D0BDFA;
+  color: #494D5F;
+  border: 2px solid #D0BDFA;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.word-bubble:hover {
+  transform: scale(1.1);
+}
+
+.guess-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 200px;
+  border: 2px solid #494D5F;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: box-shadow 0.3s;
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 0 5px #D0BDFA;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #D0BDFA;
+  color: #494D5F;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #845BB3;
+}
+
+p {
+  font-size: 20px;
+  color: #494D5F;
+  margin: 20px 0;
+}
+
+.word-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.word-letter {
+  font-size: 24px;
+  padding: 10px;
+  border: 2px solid #494D5F;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.word-letter:hover {
+  transform: scale(1.1);
+}
+
+/* Add more advanced styling as needed */

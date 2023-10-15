@@ -1,0 +1,62 @@
+.MemoryGame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E5EAF5;
+  }
+
+  .landing-page .game-buttons  {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    position : absolute;
+}
+
+.MemoryGame button { background-color: #D0BDFA;
+  color: rgb(0, 0, 0);
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "open sans";
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+  position: relative;
+  right: 200px; /* Move 10px to the right from its normal position */
+}
+
+.tiles {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 100px;
+  }
+  
+.tile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(75, 13, 108);
+  color: #cea6dd;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+  
+  .tile.flipped {
+    background-color: #fff;
+    color: #845BB3;
+    transform: scale(0.2) ;
+  }
+  
+  .tile.solved {
+    background-color: #2ecc71;
+    transform: scale(0.2) ;
+  }
+  
+  .tile:active {
+    transform: scale(0.95);
+  }
+  
