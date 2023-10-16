@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Empowerly/static/css/main.e1825f09.css",
+    "main.js": "/Empowerly/static/js/main.b2fee5e1.js",
+    "static/media/IMG_1099.png": "/Empowerly/static/media/IMG_1099.14c7f442caaf5ca4b5eb.png",
+    "static/media/IMG_1100.png": "/Empowerly/static/media/IMG_1100.f174ed8422216908d799.png",
+    "static/media/IMG_1097.png": "/Empowerly/static/media/IMG_1097.d2d3786cbdc8581f8aba.png",
+    "static/media/IMG_1098.png": "/Empowerly/static/media/IMG_1098.8e38fafc34711ae5ad24.png",
+    "static/media/IMG_1102.png": "/Empowerly/static/media/IMG_1102.a40ef719c222bb76efa7.png",
+    "static/media/IMG_1095.png": "/Empowerly/static/media/IMG_1095.270300ced3cd6ea33503.png",
+    "static/media/IMG_1096.png": "/Empowerly/static/media/IMG_1096.bc05a7c3580184acaa3e.png",
+    "static/media/IMG_1101.png": "/Empowerly/static/media/IMG_1101.871a40e6d548bec7fa12.png",
+    "static/media/scramblePagePic.png": "/Empowerly/static/media/scramblePagePic.2340f34ce480bbc1330d.png",
+    "static/media/LandingPagePic.png": "/Empowerly/static/media/LandingPagePic.924192e08fdc7acaa522.png",
+    "index.html": "/Empowerly/index.html",
+    "main.e1825f09.css.map": "/Empowerly/static/css/main.e1825f09.css.map",
+    "main.b2fee5e1.js.map": "/Empowerly/static/js/main.b2fee5e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1825f09.css",
+    "static/js/main.b2fee5e1.js"
+  ]
+}
